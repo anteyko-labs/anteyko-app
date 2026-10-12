@@ -1,0 +1,202 @@
+{
+ "banners": [
+  {
+   "title": "Первый визит −15%",
+   "subtitle": "На любую услугу",
+   "color": "#8E5572"
+  },
+  {
+   "title": "Маникюр + педикюр",
+   "subtitle": "Комплекс за 2 часа",
+   "color": "#D4899B",
+   "categoryId": "nails"
+  }
+ ],
+ "categories": [
+  {
+   "id": "hair",
+   "title": "Волосы",
+   "icon": "haircut",
+   "color": "#B0708A"
+  },
+  {
+   "id": "nails",
+   "title": "Ногти",
+   "icon": "nails",
+   "color": "#D4899B"
+  },
+  {
+   "id": "face",
+   "title": "Лицо",
+   "icon": "face",
+   "color": "#C9A27E"
+  },
+  {
+   "id": "massage",
+   "title": "Массаж",
+   "icon": "massage",
+   "color": "#8FA59A"
+  }
+ ],
+ "products": [
+  {
+   "id": "hair0",
+   "categoryId": "hair",
+   "title": "Женская стрижка",
+   "price": 1200,
+   "images": [],
+   "description": "Консультация, мытьё, стрижка и укладка.",
+   "featured": true,
+   "badges": [
+    "Хит"
+   ],
+   "options": [
+    {
+     "name": "Мастер",
+     "values": [
+      "Любой",
+      "Айгерим",
+      "Елена",
+      "Дина"
+     ]
+    }
+   ],
+   "specs": {
+    "Длительность": "60 мин"
+   }
+  },
+  {
+   "id": "hair1",
+   "categoryId": "hair",
+   "title": "Мужская стрижка",
+   "price": 700,
+   "images": [],
+   "description": "Машинка и ножницы, укладка.",
+   "specs": {
+    "Длительность": "40 мин"
+   }
+  },
+  {
+   "id": "hair2",
+   "categoryId": "hair",
+   "title": "Окрашивание",
+   "price": 3500,
+   "images": [],
+   "description": "Однотонное окрашивание с уходом. Итог зависит от длины.",
+   "specs": {
+    "Длительность": "2–3 ч"
+   },
+   "options": [
+    {
+     "name": "Длина",
+     "values": [
+      "Короткие",
+      "Средние",
+      "Длинные"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hair3",
+   "categoryId": "hair",
+   "title": "Укладка",
+   "price": 800,
+   "images": [],
+   "description": "Локоны, гладкая или вечерняя."
+  },
+  {
+   "id": "nails4",
+   "categoryId": "nails",
+   "title": "Маникюр с покрытием",
+   "price": 1300,
+   "images": [],
+   "description": "Комбинированный маникюр и гель-лак.",
+   "featured": true,
+   "options": [
+    {
+     "name": "Мастер",
+     "values": [
+      "Любой",
+      "Асель",
+      "Мария"
+     ]
+    }
+   ],
+   "specs": {
+    "Длительность": "90 мин"
+   }
+  },
+  {
+   "id": "nails5",
+   "categoryId": "nails",
+   "title": "Педикюр",
+   "price": 1500,
+   "images": [],
+   "description": "Аппаратный педикюр с покрытием.",
+   "specs": {
+    "Длительность": "90 мин"
+   }
+  },
+  {
+   "id": "nails6",
+   "categoryId": "nails",
+   "title": "Наращивание",
+   "price": 2500,
+   "images": [],
+   "description": "Гель, любая форма.",
+   "oldPrice": 3000
+  },
+  {
+   "id": "face7",
+   "categoryId": "face",
+   "title": "Чистка лица",
+   "price": 2200,
+   "images": [],
+   "description": "Комбинированная чистка и маска.",
+   "specs": {
+    "Длительность": "75 мин"
+   }
+  },
+  {
+   "id": "face8",
+   "categoryId": "face",
+   "title": "Брови: коррекция и окрашивание",
+   "price": 600,
+   "images": [],
+   "description": "Форма и цвет.",
+   "badges": [
+    "Новинка"
+   ]
+  },
+  {
+   "id": "massage9",
+   "categoryId": "massage",
+   "title": "Классический массаж",
+   "price": 2000,
+   "images": [],
+   "description": "Общий массаж тела.",
+   "featured": true,
+   "options": [
+    {
+     "name": "Длительность",
+     "values": [
+      "60 мин",
+      "90 мин"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "massage10",
+   "categoryId": "massage",
+   "title": "Массаж спины",
+   "price": 1200,
+   "images": [],
+   "description": "Снимает напряжение.",
+   "specs": {
+    "Длительность": "40 мин"
+   }
+  }
+ ]
+}

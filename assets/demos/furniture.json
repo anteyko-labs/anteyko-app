@@ -1,0 +1,183 @@
+{
+ "banners": [
+  {
+   "title": "Коллекция «Nord»",
+   "subtitle": "Скандинавский дизайн, сделано в Бишкеке",
+   "color": "#7C6A55",
+   "categoryId": "sofa"
+  },
+  {
+   "title": "Шкафы на заказ",
+   "subtitle": "Бесплатный замер и 3D-проект",
+   "color": "#1F2937",
+   "categoryId": "wardrobe"
+  }
+ ],
+ "categories": [
+  {
+   "id": "sofa",
+   "title": "Диваны",
+   "icon": "sofa",
+   "color": "#7C6A55"
+  },
+  {
+   "id": "bed",
+   "title": "Кровати",
+   "icon": "bed",
+   "color": "#5B6CFF"
+  },
+  {
+   "id": "table",
+   "title": "Столы",
+   "icon": "table",
+   "color": "#C9A227"
+  },
+  {
+   "id": "wardrobe",
+   "title": "Шкафы",
+   "icon": "wardrobe",
+   "color": "#6B7280"
+  },
+  {
+   "id": "light",
+   "title": "Свет",
+   "icon": "light",
+   "color": "#F5A524"
+  }
+ ],
+ "products": [
+  {
+   "id": "sofa0",
+   "categoryId": "sofa",
+   "title": "Диван «Nord» трёхместный",
+   "price": 68000,
+   "images": [],
+   "description": "Мягкий велюр, независимый пружинный блок.",
+   "featured": true,
+   "options": [
+    {
+     "name": "Обивка",
+     "values": [
+      "Велюр серый",
+      "Велюр бежевый",
+      "Рогожка"
+     ]
+    }
+   ],
+   "specs": {
+    "Размер": "220×95×85 см",
+    "Механизм": "Без раскладки",
+    "Гарантия": "18 месяцев"
+   }
+  },
+  {
+   "id": "sofa1",
+   "categoryId": "sofa",
+   "title": "Угловой диван «Loft»",
+   "price": 95000,
+   "images": [],
+   "description": "Раскладывается в спальное место.",
+   "specs": {
+    "Размер": "280×180 см",
+    "Спальное место": "200×150 см"
+   }
+  },
+  {
+   "id": "sofa2",
+   "categoryId": "sofa",
+   "title": "Кресло «Oslo»",
+   "price": 24000,
+   "images": [],
+   "description": "Деревянные ножки, съёмные чехлы.",
+   "badges": [
+    "Новинка"
+   ]
+  },
+  {
+   "id": "bed3",
+   "categoryId": "bed",
+   "title": "Кровать «Soft» 160×200",
+   "price": 54000,
+   "images": [],
+   "description": "Мягкое изголовье, подъёмный механизм.",
+   "featured": true,
+   "options": [
+    {
+     "name": "Размер",
+     "values": [
+      "140×200",
+      "160×200",
+      "180×200"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bed4",
+   "categoryId": "bed",
+   "title": "Матрас ортопедический",
+   "price": 32000,
+   "images": [],
+   "description": "Средняя жёсткость.",
+   "specs": {
+    "Высота": "24 см"
+   }
+  },
+  {
+   "id": "table5",
+   "categoryId": "table",
+   "title": "Обеденный стол «Oak»",
+   "price": 42000,
+   "images": [],
+   "description": "Массив дуба, раздвижной.",
+   "specs": {
+    "Размер": "160–200×90 см",
+    "Материал": "Дуб"
+   }
+  },
+  {
+   "id": "table6",
+   "categoryId": "table",
+   "title": "Журнальный столик",
+   "price": 12000,
+   "images": [],
+   "description": "Керамическая столешница."
+  },
+  {
+   "id": "wardrobe7",
+   "categoryId": "wardrobe",
+   "title": "Шкаф-купе на заказ",
+   "price": null,
+   "images": [],
+   "description": "Размеры и наполнение под вашу нишу. Цена после замера.",
+   "featured": true,
+   "badges": [
+    "На заказ"
+   ]
+  },
+  {
+   "id": "wardrobe8",
+   "categoryId": "wardrobe",
+   "title": "Комод «Line»",
+   "price": 28000,
+   "images": [],
+   "description": "4 ящика, доводчики."
+  },
+  {
+   "id": "light9",
+   "categoryId": "light",
+   "title": "Торшер «Arc»",
+   "price": 9500,
+   "images": [],
+   "description": "Дуговой, тёплый свет."
+  },
+  {
+   "id": "light10",
+   "categoryId": "light",
+   "title": "Люстра «Halo»",
+   "price": 18000,
+   "images": [],
+   "description": "LED, регулировка яркости."
+  }
+ ]
+}

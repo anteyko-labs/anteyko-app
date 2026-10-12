@@ -1,0 +1,220 @@
+{
+ "banners": [
+  {
+   "title": "Доставка за 30 минут",
+   "subtitle": "Свежие продукты к вашей двери",
+   "color": "#15803D"
+  },
+  {
+   "title": "Скидки на фрукты",
+   "subtitle": "Сезонные цены каждую неделю",
+   "color": "#F5C451",
+   "categoryId": "fruit"
+  }
+ ],
+ "categories": [
+  {
+   "id": "fruit",
+   "title": "Фрукты и овощи",
+   "icon": "fruit",
+   "color": "#3DA35D"
+  },
+  {
+   "id": "dairy",
+   "title": "Молочное",
+   "icon": "dairy",
+   "color": "#2F5BEA"
+  },
+  {
+   "id": "meat",
+   "title": "Мясо",
+   "icon": "meat",
+   "color": "#C81E4A"
+  },
+  {
+   "id": "bakery",
+   "title": "Хлеб",
+   "icon": "bakery",
+   "color": "#C9822B"
+  },
+  {
+   "id": "drinks",
+   "title": "Напитки",
+   "icon": "juice",
+   "color": "#0E7490"
+  },
+  {
+   "id": "home",
+   "title": "Для дома",
+   "icon": "home",
+   "color": "#6B7280"
+  }
+ ],
+ "products": [
+  {
+   "id": "fruit0",
+   "categoryId": "fruit",
+   "title": "Яблоки «Голден»",
+   "price": 140,
+   "images": [],
+   "description": "Местные, сладкие.",
+   "unit": "кг",
+   "featured": true
+  },
+  {
+   "id": "fruit1",
+   "categoryId": "fruit",
+   "title": "Бананы",
+   "price": 160,
+   "images": [],
+   "description": "Эквадор.",
+   "unit": "кг",
+   "oldPrice": 190
+  },
+  {
+   "id": "fruit2",
+   "categoryId": "fruit",
+   "title": "Помидоры",
+   "price": 180,
+   "images": [],
+   "description": "Тепличные, сочные.",
+   "unit": "кг"
+  },
+  {
+   "id": "fruit3",
+   "categoryId": "fruit",
+   "title": "Огурцы",
+   "price": 120,
+   "images": [],
+   "description": "Хрустящие.",
+   "unit": "кг"
+  },
+  {
+   "id": "fruit4",
+   "categoryId": "fruit",
+   "title": "Авокадо",
+   "price": 95,
+   "images": [],
+   "description": "Готовы к употреблению.",
+   "unit": "шт",
+   "badges": [
+    "Новинка"
+   ]
+  },
+  {
+   "id": "dairy5",
+   "categoryId": "dairy",
+   "title": "Молоко 3,2%",
+   "price": 85,
+   "images": [],
+   "description": "1 литр.",
+   "featured": true
+  },
+  {
+   "id": "dairy6",
+   "categoryId": "dairy",
+   "title": "Творог 5%",
+   "price": 150,
+   "images": [],
+   "description": "400 г."
+  },
+  {
+   "id": "dairy7",
+   "categoryId": "dairy",
+   "title": "Сыр «Российский»",
+   "price": 620,
+   "images": [],
+   "description": "Твёрдый сыр.",
+   "unit": "кг"
+  },
+  {
+   "id": "dairy8",
+   "categoryId": "dairy",
+   "title": "Яйца С1 (10 шт.)",
+   "price": 140,
+   "images": [],
+   "description": "Фермерские."
+  },
+  {
+   "id": "meat9",
+   "categoryId": "meat",
+   "title": "Говядина вырезка",
+   "price": 780,
+   "images": [],
+   "description": "Охлаждённая.",
+   "unit": "кг",
+   "featured": true
+  },
+  {
+   "id": "meat10",
+   "categoryId": "meat",
+   "title": "Курица филе",
+   "price": 430,
+   "images": [],
+   "description": "Охлаждённое.",
+   "unit": "кг",
+   "oldPrice": 480
+  },
+  {
+   "id": "bakery11",
+   "categoryId": "bakery",
+   "title": "Хлеб «Бородинский»",
+   "price": 65,
+   "images": [],
+   "description": "500 г."
+  },
+  {
+   "id": "bakery12",
+   "categoryId": "bakery",
+   "title": "Лепёшка тандырная",
+   "price": 40,
+   "images": [],
+   "description": "Горячая, утренняя выпечка.",
+   "badges": [
+    "Хит"
+   ]
+  },
+  {
+   "id": "drinks13",
+   "categoryId": "drinks",
+   "title": "Вода минеральная 1,5 л",
+   "price": 55,
+   "images": [],
+   "description": "Газированная.",
+   "options": [
+    {
+     "name": "Тип",
+     "values": [
+      "С газом",
+      "Без газа"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drinks14",
+   "categoryId": "drinks",
+   "title": "Сок апельсиновый 1 л",
+   "price": 160,
+   "images": [],
+   "description": "100% сок."
+  },
+  {
+   "id": "home15",
+   "categoryId": "home",
+   "title": "Средство для посуды",
+   "price": 190,
+   "images": [],
+   "description": "500 мл, лимон."
+  },
+  {
+   "id": "home16",
+   "categoryId": "home",
+   "title": "Бумажные полотенца",
+   "price": 120,
+   "images": [],
+   "description": "2 рулона.",
+   "inStock": false
+  }
+ ]
+}

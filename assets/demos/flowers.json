@@ -1,0 +1,200 @@
+{
+ "banners": [
+  {
+   "title": "Букет дня −20%",
+   "subtitle": "Собираем утром, доставляем за 2 часа",
+   "color": "#C81E4A",
+   "categoryId": "bouquets"
+  },
+  {
+   "title": "Открытка в подарок",
+   "subtitle": "К любому заказу",
+   "color": "#B57EDC",
+   "categoryId": "extras"
+  }
+ ],
+ "categories": [
+  {
+   "id": "bouquets",
+   "title": "Букеты",
+   "icon": "flowers",
+   "color": "#E85D9A"
+  },
+  {
+   "id": "roses",
+   "title": "Розы",
+   "icon": "flowers",
+   "color": "#C81E4A"
+  },
+  {
+   "id": "box",
+   "title": "В коробке",
+   "icon": "gifts",
+   "color": "#B57EDC"
+  },
+  {
+   "id": "plants",
+   "title": "Комнатные",
+   "icon": "plants",
+   "color": "#3DA35D"
+  },
+  {
+   "id": "extras",
+   "title": "Дополнения",
+   "icon": "party",
+   "color": "#F5A524"
+  }
+ ],
+ "products": [
+  {
+   "id": "bouquets0",
+   "categoryId": "bouquets",
+   "title": "Нежность",
+   "price": 2490,
+   "images": [],
+   "description": "Пионовидные розы, эустома и эвкалипт.",
+   "featured": true,
+   "badges": [
+    "Хит"
+   ],
+   "options": [
+    {
+     "name": "Размер",
+     "values": [
+      "S",
+      "M",
+      "L"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bouquets1",
+   "categoryId": "bouquets",
+   "title": "Весеннее утро",
+   "price": 1890,
+   "images": [],
+   "description": "Тюльпаны и ирисы в крафте.",
+   "oldPrice": 2290
+  },
+  {
+   "id": "bouquets2",
+   "categoryId": "bouquets",
+   "title": "Полевой",
+   "price": 1590,
+   "images": [],
+   "description": "Ромашки, лаванда, злаки."
+  },
+  {
+   "id": "bouquets3",
+   "categoryId": "bouquets",
+   "title": "Авторский букет",
+   "price": 3500,
+   "images": [],
+   "description": "Флорист соберёт по вашему настроению.",
+   "badges": [
+    "Новинка"
+   ]
+  },
+  {
+   "id": "roses4",
+   "categoryId": "roses",
+   "title": "Розы Эквадор",
+   "price": 250,
+   "images": [],
+   "description": "Длина 60 см. Цена за штуку.",
+   "unit": "шт",
+   "featured": true,
+   "options": [
+    {
+     "name": "Цвет",
+     "values": [
+      "Красные",
+      "Белые",
+      "Розовые",
+      "Микс"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roses5",
+   "categoryId": "roses",
+   "title": "51 роза",
+   "price": 9990,
+   "images": [],
+   "description": "Большой букет в ленте.",
+   "options": [
+    {
+     "name": "Цвет",
+     "values": [
+      "Красные",
+      "Белые",
+      "Микс"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "box6",
+   "categoryId": "box",
+   "title": "Шляпная коробка",
+   "price": 3290,
+   "images": [],
+   "description": "Розы и диантусы в коробке.",
+   "featured": true
+  },
+  {
+   "id": "box7",
+   "categoryId": "box",
+   "title": "Корзина с фруктами",
+   "price": 4590,
+   "images": [],
+   "description": "Сезонные фрукты и цветы."
+  },
+  {
+   "id": "plants8",
+   "categoryId": "plants",
+   "title": "Монстера",
+   "price": 2190,
+   "images": [],
+   "description": "В горшке 19 см.",
+   "specs": {
+    "Высота": "60 см",
+    "Уход": "Простой"
+   }
+  },
+  {
+   "id": "plants9",
+   "categoryId": "plants",
+   "title": "Орхидея",
+   "price": 1690,
+   "images": [],
+   "description": "Фаленопсис, 2 ветки."
+  },
+  {
+   "id": "extras10",
+   "categoryId": "extras",
+   "title": "Открытка",
+   "price": 150,
+   "images": [],
+   "description": "Напишем ваш текст от руки."
+  },
+  {
+   "id": "extras11",
+   "categoryId": "extras",
+   "title": "Шары гелиевые (5 шт.)",
+   "price": 900,
+   "images": [],
+   "description": "Пастельные цвета."
+  },
+  {
+   "id": "extras12",
+   "categoryId": "extras",
+   "title": "Конфеты ручной работы",
+   "price": 790,
+   "images": [],
+   "description": "Бельгийский шоколад, 12 шт."
+  }
+ ]
+}

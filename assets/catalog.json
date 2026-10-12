@@ -1,0 +1,570 @@
+{
+  "banners": [
+    {
+      "title": "Скидки до −30%",
+      "subtitle": "На одежду и обувь этой недели",
+      "color": "#2F5BEA",
+      "categoryId": "clothes"
+    },
+    {
+      "title": "Новинки электроники",
+      "subtitle": "Наушники, часы и колонки",
+      "color": "#0F766E",
+      "categoryId": "electronics"
+    },
+    {
+      "title": "Подарки близким",
+      "subtitle": "Сертификаты и упаковка",
+      "color": "#F5C451",
+      "categoryId": "gifts"
+    }
+  ],
+  "categories": [
+    {
+      "id": "clothes",
+      "title": "Одежда",
+      "icon": "clothes",
+      "color": "#5B6CFF"
+    },
+    {
+      "id": "shoes",
+      "title": "Обувь",
+      "icon": "shoes",
+      "color": "#FF7A45"
+    },
+    {
+      "id": "accessories",
+      "title": "Аксессуары",
+      "icon": "accessories",
+      "color": "#B57EDC"
+    },
+    {
+      "id": "electronics",
+      "title": "Электроника",
+      "icon": "audio",
+      "color": "#2BB0A6"
+    },
+    {
+      "id": "home",
+      "title": "Дом",
+      "icon": "home",
+      "color": "#C9A227"
+    },
+    {
+      "id": "beauty",
+      "title": "Красота",
+      "icon": "beauty",
+      "color": "#E85D9A"
+    },
+    {
+      "id": "sport",
+      "title": "Спорт",
+      "icon": "sport",
+      "color": "#3DA35D"
+    },
+    {
+      "id": "gifts",
+      "title": "Подарки",
+      "icon": "gifts",
+      "color": "#E5484D"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "categoryId": "clothes",
+      "title": "Футболка базовая хлопок",
+      "price": 890,
+      "oldPrice": 1190,
+      "images": [],
+      "description": "Плотный хлопок 180 г/м², свободный крой. Не садится после стирки.",
+      "badges": [
+        "Хит"
+      ],
+      "options": [
+        {
+          "name": "Размер",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        },
+        {
+          "name": "Цвет",
+          "values": [
+            "Белый",
+            "Чёрный",
+            "Серый"
+          ]
+        }
+      ],
+      "specs": {
+        "Состав": "100% хлопок",
+        "Страна": "Кыргызстан"
+      },
+      "featured": true
+    },
+    {
+      "id": "p2",
+      "categoryId": "clothes",
+      "title": "Худи оверсайз",
+      "price": 2490,
+      "images": [],
+      "description": "Тёплое худи с начёсом и капюшоном на двойной ткани.",
+      "badges": [
+        "Новинка"
+      ],
+      "options": [
+        {
+          "name": "Размер",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        },
+        {
+          "name": "Цвет",
+          "values": [
+            "Графит",
+            "Бежевый"
+          ]
+        }
+      ],
+      "specs": {
+        "Состав": "80% хлопок, 20% полиэстер"
+      },
+      "featured": true
+    },
+    {
+      "id": "p3",
+      "categoryId": "clothes",
+      "title": "Джинсы прямые",
+      "price": 2990,
+      "images": [],
+      "description": "Классические прямые джинсы из плотного денима.",
+      "options": [
+        {
+          "name": "Размер",
+          "values": [
+            "28",
+            "30",
+            "32",
+            "34",
+            "36"
+          ]
+        }
+      ],
+      "specs": {
+        "Посадка": "Средняя",
+        "Состав": "98% хлопок, 2% эластан"
+      }
+    },
+    {
+      "id": "p4",
+      "categoryId": "clothes",
+      "title": "Куртка демисезонная",
+      "price": 5990,
+      "oldPrice": 7490,
+      "images": [],
+      "description": "Лёгкая утеплённая куртка, защищает от ветра и дождя.",
+      "options": [
+        {
+          "name": "Размер",
+          "values": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "specs": {
+        "Утеплитель": "100 г/м²",
+        "Сезон": "Весна–осень"
+      }
+    },
+    {
+      "id": "p5",
+      "categoryId": "shoes",
+      "title": "Кроссовки городские",
+      "price": 4590,
+      "images": [],
+      "description": "Лёгкие кроссовки с амортизирующей подошвой на каждый день.",
+      "badges": [
+        "Хит"
+      ],
+      "options": [
+        {
+          "name": "Размер",
+          "values": [
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "specs": {
+        "Верх": "Текстиль",
+        "Подошва": "EVA"
+      },
+      "featured": true
+    },
+    {
+      "id": "p6",
+      "categoryId": "shoes",
+      "title": "Ботинки кожаные",
+      "price": 7990,
+      "oldPrice": 9490,
+      "images": [],
+      "description": "Натуральная кожа, тёплая подкладка, нескользящая подошва.",
+      "options": [
+        {
+          "name": "Размер",
+          "values": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "specs": {
+        "Материал": "Натуральная кожа"
+      }
+    },
+    {
+      "id": "p7",
+      "categoryId": "shoes",
+      "title": "Слипоны",
+      "price": 1990,
+      "images": [],
+      "description": "Удобные слипоны без шнурков.",
+      "options": [
+        {
+          "name": "Размер",
+          "values": [
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41"
+          ]
+        }
+      ],
+      "inStock": false
+    },
+    {
+      "id": "p8",
+      "categoryId": "accessories",
+      "title": "Рюкзак городской",
+      "price": 3290,
+      "images": [],
+      "description": "Отделение для ноутбука 15\", водоотталкивающая ткань.",
+      "badges": [
+        "Новинка"
+      ],
+      "options": [
+        {
+          "name": "Цвет",
+          "values": [
+            "Чёрный",
+            "Хаки"
+          ]
+        }
+      ],
+      "specs": {
+        "Объём": "22 л",
+        "Ноутбук": "до 15,6\""
+      },
+      "featured": true
+    },
+    {
+      "id": "p9",
+      "categoryId": "accessories",
+      "title": "Часы наручные",
+      "price": 4990,
+      "images": [],
+      "description": "Минималистичные часы с кожаным ремешком.",
+      "specs": {
+        "Корпус": "40 мм",
+        "Водозащита": "3 ATM"
+      }
+    },
+    {
+      "id": "p10",
+      "categoryId": "accessories",
+      "title": "Солнцезащитные очки",
+      "price": 1490,
+      "oldPrice": 1990,
+      "images": [],
+      "description": "Поляризованные линзы, защита UV400."
+    },
+    {
+      "id": "p11",
+      "categoryId": "accessories",
+      "title": "Кошелёк кожаный",
+      "price": 1790,
+      "images": [],
+      "description": "Компактный кошелёк из натуральной кожи на 8 карт."
+    },
+    {
+      "id": "p12",
+      "categoryId": "electronics",
+      "title": "Беспроводные наушники",
+      "price": 3990,
+      "oldPrice": 4990,
+      "images": [],
+      "description": "До 30 часов работы с кейсом, шумоподавление, быстрая зарядка.",
+      "badges": [
+        "Хит"
+      ],
+      "options": [
+        {
+          "name": "Цвет",
+          "values": [
+            "Белый",
+            "Чёрный"
+          ]
+        }
+      ],
+      "specs": {
+        "Bluetooth": "5.3",
+        "Время работы": "до 30 ч",
+        "Защита": "IPX4"
+      },
+      "featured": true
+    },
+    {
+      "id": "p13",
+      "categoryId": "electronics",
+      "title": "Портативная колонка",
+      "price": 2790,
+      "images": [],
+      "description": "Громкий звук и защита от воды — бери с собой куда угодно.",
+      "specs": {
+        "Мощность": "10 Вт",
+        "Защита": "IPX7"
+      }
+    },
+    {
+      "id": "p14",
+      "categoryId": "electronics",
+      "title": "Power bank 10 000 мА·ч",
+      "price": 1590,
+      "images": [],
+      "description": "Компактный внешний аккумулятор с быстрой зарядкой.",
+      "specs": {
+        "Ёмкость": "10 000 мА·ч",
+        "Выходы": "USB-C, USB-A"
+      }
+    },
+    {
+      "id": "p15",
+      "categoryId": "electronics",
+      "title": "Умные часы",
+      "price": 6490,
+      "images": [],
+      "description": "Пульс, шаги, сон, уведомления. До 7 дней без подзарядки.",
+      "badges": [
+        "Новинка"
+      ],
+      "options": [
+        {
+          "name": "Цвет",
+          "values": [
+            "Чёрный",
+            "Розовый"
+          ]
+        }
+      ],
+      "specs": {
+        "Экран": "1,8\" AMOLED"
+      },
+      "featured": true
+    },
+    {
+      "id": "p16",
+      "categoryId": "home",
+      "title": "Плед мягкий",
+      "price": 1890,
+      "oldPrice": 2390,
+      "images": [],
+      "description": "Плед из микрофибры 150×200 см.",
+      "options": [
+        {
+          "name": "Цвет",
+          "values": [
+            "Серый",
+            "Бежевый",
+            "Зелёный"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "categoryId": "home",
+      "title": "Набор кружек (2 шт.)",
+      "price": 990,
+      "images": [],
+      "description": "Керамика ручной работы, 350 мл.",
+      "specs": {
+        "Объём": "350 мл"
+      }
+    },
+    {
+      "id": "p18",
+      "categoryId": "home",
+      "title": "Ароматическая свеча",
+      "price": 790,
+      "images": [],
+      "description": "Соевый воск, время горения до 40 часов.",
+      "badges": [
+        "Хит"
+      ],
+      "options": [
+        {
+          "name": "Аромат",
+          "values": [
+            "Ваниль",
+            "Лаванда",
+            "Кедр"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "categoryId": "home",
+      "title": "Настольная лампа",
+      "price": 2290,
+      "images": [],
+      "description": "Тёплый свет, регулировка яркости, USB-питание."
+    },
+    {
+      "id": "p20",
+      "categoryId": "beauty",
+      "title": "Крем для рук",
+      "price": 450,
+      "images": [],
+      "description": "Питательный крем с маслом ши.",
+      "specs": {
+        "Объём": "75 мл"
+      }
+    },
+    {
+      "id": "p21",
+      "categoryId": "beauty",
+      "title": "Набор уходовой косметики",
+      "price": 2990,
+      "oldPrice": 3590,
+      "images": [],
+      "description": "Очищение, тоник и увлажняющий крем в одном наборе.",
+      "badges": [
+        "Подарок"
+      ],
+      "featured": true
+    },
+    {
+      "id": "p22",
+      "categoryId": "beauty",
+      "title": "Парфюмерная вода",
+      "price": 3490,
+      "images": [],
+      "description": "Свежий цитрусово-древесный аромат.",
+      "options": [
+        {
+          "name": "Объём",
+          "values": [
+            "30 мл",
+            "50 мл"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "categoryId": "sport",
+      "title": "Коврик для йоги",
+      "price": 1690,
+      "images": [],
+      "description": "Нескользящий коврик 6 мм с ремнём для переноски.",
+      "options": [
+        {
+          "name": "Цвет",
+          "values": [
+            "Фиолетовый",
+            "Синий",
+            "Чёрный"
+          ]
+        }
+      ],
+      "specs": {
+        "Размер": "183×61 см"
+      }
+    },
+    {
+      "id": "p24",
+      "categoryId": "sport",
+      "title": "Бутылка для воды",
+      "price": 690,
+      "images": [],
+      "description": "Тритан без BPA, 750 мл.",
+      "specs": {
+        "Объём": "750 мл"
+      }
+    },
+    {
+      "id": "p25",
+      "categoryId": "sport",
+      "title": "Гантели 2×3 кг",
+      "price": 1990,
+      "oldPrice": 2490,
+      "images": [],
+      "description": "Неопреновое покрытие, удобный хват."
+    },
+    {
+      "id": "p26",
+      "categoryId": "gifts",
+      "title": "Подарочный сертификат",
+      "price": 3000,
+      "images": [],
+      "description": "Сертификат на покупку любого товара в магазине. Действует 6 месяцев.",
+      "badges": [
+        "Подарок"
+      ],
+      "options": [
+        {
+          "name": "Номинал",
+          "values": [
+            "3 000",
+            "5 000",
+            "10 000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "categoryId": "gifts",
+      "title": "Подарочная упаковка",
+      "price": 290,
+      "images": [],
+      "description": "Крафт-коробка с лентой и открыткой."
+    }
+  ]
+}

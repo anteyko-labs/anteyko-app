@@ -1,0 +1,300 @@
+{
+ "banners": [
+  {
+   "title": "Вторая пицца −50%",
+   "subtitle": "Каждый вторник",
+   "color": "#E85D2F",
+   "categoryId": "pizza"
+  },
+  {
+   "title": "Бесплатная доставка",
+   "subtitle": "При заказе от 1 500 сом",
+   "color": "#1F2937"
+  },
+  {
+   "title": "Новые роллы",
+   "subtitle": "Попробуйте сет «Токио»",
+   "color": "#2F7D6D",
+   "categoryId": "sushi"
+  }
+ ],
+ "categories": [
+  {
+   "id": "pizza",
+   "title": "Пицца",
+   "icon": "pizza",
+   "color": "#E85D2F"
+  },
+  {
+   "id": "burger",
+   "title": "Бургеры",
+   "icon": "burger",
+   "color": "#C9822B"
+  },
+  {
+   "id": "sushi",
+   "title": "Роллы",
+   "icon": "sushi",
+   "color": "#2F7D6D"
+  },
+  {
+   "id": "salad",
+   "title": "Салаты",
+   "icon": "salad",
+   "color": "#3DA35D"
+  },
+  {
+   "id": "dessert",
+   "title": "Десерты",
+   "icon": "dessert",
+   "color": "#E85D9A"
+  },
+  {
+   "id": "drinks",
+   "title": "Напитки",
+   "icon": "coffee",
+   "color": "#7A5230"
+  }
+ ],
+ "products": [
+  {
+   "id": "pizza0",
+   "categoryId": "pizza",
+   "title": "Маргарита",
+   "price": 590,
+   "images": [],
+   "description": "Томатный соус, моцарелла, базилик.",
+   "options": [
+    {
+     "name": "Размер",
+     "values": [
+      "25 см",
+      "30 см",
+      "35 см"
+     ]
+    }
+   ],
+   "badges": [
+    "Хит"
+   ],
+   "featured": true
+  },
+  {
+   "id": "pizza1",
+   "categoryId": "pizza",
+   "title": "Пепперони",
+   "price": 690,
+   "images": [],
+   "description": "Острая колбаса пепперони и много сыра.",
+   "options": [
+    {
+     "name": "Размер",
+     "values": [
+      "25 см",
+      "30 см",
+      "35 см"
+     ]
+    }
+   ],
+   "featured": true
+  },
+  {
+   "id": "pizza2",
+   "categoryId": "pizza",
+   "title": "Четыре сыра",
+   "price": 750,
+   "images": [],
+   "description": "Моцарелла, дорблю, пармезан, чеддер.",
+   "options": [
+    {
+     "name": "Размер",
+     "values": [
+      "25 см",
+      "30 см",
+      "35 см"
+     ]
+    }
+   ],
+   "oldPrice": 850
+  },
+  {
+   "id": "pizza3",
+   "categoryId": "pizza",
+   "title": "Барбекю",
+   "price": 790,
+   "images": [],
+   "description": "Курица, бекон, лук, соус барбекю.",
+   "options": [
+    {
+     "name": "Размер",
+     "values": [
+      "25 см",
+      "30 см",
+      "35 см"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "burger4",
+   "categoryId": "burger",
+   "title": "Классический бургер",
+   "price": 450,
+   "images": [],
+   "description": "Говяжья котлета, чеддер, соленья, фирменный соус.",
+   "badges": [
+    "Хит"
+   ],
+   "featured": true,
+   "options": [
+    {
+     "name": "Добавки",
+     "values": [
+      "Без добавок",
+      "+ бекон",
+      "+ сыр",
+      "+ халапеньо"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "burger5",
+   "categoryId": "burger",
+   "title": "Чизбургер двойной",
+   "price": 590,
+   "images": [],
+   "description": "Две котлеты и двойной сыр."
+  },
+  {
+   "id": "burger6",
+   "categoryId": "burger",
+   "title": "Чикенбургер",
+   "price": 420,
+   "images": [],
+   "description": "Хрустящая курица, салат, соус ранч.",
+   "oldPrice": 490
+  },
+  {
+   "id": "sushi7",
+   "categoryId": "sushi",
+   "title": "Филадельфия",
+   "price": 690,
+   "images": [],
+   "description": "Лосось, сливочный сыр, огурец. 8 шт.",
+   "featured": true,
+   "specs": {
+    "Вес": "260 г",
+    "Количество": "8 шт"
+   }
+  },
+  {
+   "id": "sushi8",
+   "categoryId": "sushi",
+   "title": "Калифорния",
+   "price": 590,
+   "images": [],
+   "description": "Краб, авокадо, тобико. 8 шт."
+  },
+  {
+   "id": "sushi9",
+   "categoryId": "sushi",
+   "title": "Сет «Токио»",
+   "price": 1890,
+   "images": [],
+   "description": "32 ролла на компанию.",
+   "badges": [
+    "Новинка"
+   ],
+   "specs": {
+    "Вес": "1 100 г",
+    "Количество": "32 шт"
+   }
+  },
+  {
+   "id": "salad10",
+   "categoryId": "salad",
+   "title": "Цезарь с курицей",
+   "price": 420,
+   "images": [],
+   "description": "Романо, курица гриль, пармезан, крутоны."
+  },
+  {
+   "id": "salad11",
+   "categoryId": "salad",
+   "title": "Греческий",
+   "price": 350,
+   "images": [],
+   "description": "Овощи, фета, оливки, орегано."
+  },
+  {
+   "id": "dessert12",
+   "categoryId": "dessert",
+   "title": "Чизкейк Нью-Йорк",
+   "price": 290,
+   "images": [],
+   "description": "Классический сливочный чизкейк.",
+   "featured": true
+  },
+  {
+   "id": "dessert13",
+   "categoryId": "dessert",
+   "title": "Тирамису",
+   "price": 320,
+   "images": [],
+   "description": "Маскарпоне, савоярди, кофе."
+  },
+  {
+   "id": "drinks14",
+   "categoryId": "drinks",
+   "title": "Капучино",
+   "price": 180,
+   "images": [],
+   "description": "Двойной эспрессо и молочная пена.",
+   "options": [
+    {
+     "name": "Объём",
+     "values": [
+      "250 мл",
+      "350 мл"
+     ]
+    },
+    {
+     "name": "Молоко",
+     "values": [
+      "Обычное",
+      "Овсяное",
+      "Кокосовое"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drinks15",
+   "categoryId": "drinks",
+   "title": "Лимонад домашний",
+   "price": 190,
+   "images": [],
+   "description": "Лимон, мята, тростниковый сахар.",
+   "options": [
+    {
+     "name": "Вкус",
+     "values": [
+      "Классика",
+      "Клубника",
+      "Маракуйя"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drinks16",
+   "categoryId": "drinks",
+   "title": "Свежевыжатый сок",
+   "price": 250,
+   "images": [],
+   "description": "Апельсин или грейпфрут.",
+   "inStock": false
+  }
+ ]
+}
